@@ -8,6 +8,7 @@ end
 
 class Person
   attr_reader :name, :age, :gender
+  # Could use attr_writer to make write-only, attr_accessor to make read/write
   def initialize(name, age, gender)
     @name=name
     @age = age
